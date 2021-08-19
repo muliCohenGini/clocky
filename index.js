@@ -10,3 +10,5 @@ import {emailer} from './services/mail.service.js'
         if (Math.abs(zohoHours - clockifyHours) > 5) emailer(formatter(zohoHours), formatter(clockifyHours))
     }, 60000)
 })();
+
+//fixed a series issue.
